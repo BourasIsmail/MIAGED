@@ -9,4 +9,5 @@ En bas l’y a les icones du home, le panier, et le profile qui sert à naviguer
 Dans la partie profil on peut supprimer les produits du panier en appuyant sur l'icône '-' à droite de chaque article. (Je ne suis pas arrivé à afficher la somme de tous les articles malheureusement)
 
 Pour la page du profil on affiche tous les informations de l'utilisateur (sauf pour le mot de passe Firebase ne l'a pas permis ou il n'a pas donné accès) dont lesquelles on peut les modifiable (sauf pour l'email) et un bouton 'update' pour confirmer ces changements.
+commande pour executer le projet : flutter run -d chrome --web-renderer html
 ![image](https://user-images.githubusercontent.com/84333680/209479471-8be39770-e6c8-4d64-a79b-86cf47982985.png)
