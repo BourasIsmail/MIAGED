@@ -227,7 +227,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                         Wrap(
                           children: [
                             Text(
-                              "Don't have an account?",
+                              "Already have an account?",
                               style: TextStyle(
                                 fontSize: 13.sp,
                                 fontWeight: FontWeight.w600,
