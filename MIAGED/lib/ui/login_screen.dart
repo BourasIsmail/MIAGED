@@ -66,7 +66,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                     ),
                     Text(
-                      "Sign In",
+                      "Log In",
                       style: TextStyle(fontSize: 22.sp, color: Colors.white),
                     ),
                   ],
@@ -94,7 +94,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           height: 20.h,
                         ),
                         Text(
-                          "Welcome Back",
+                          "Bienvenue",
                           style: TextStyle(
                               fontSize: 22.sp, color: AppColors.vinted_color),
                         ),
