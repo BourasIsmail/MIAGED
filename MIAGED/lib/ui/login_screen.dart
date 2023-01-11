@@ -50,10 +50,10 @@ class _LoginScreenState extends State<LoginScreen> {
         child: Column(
           children: [
             SizedBox(
-              height: 150.h,
+              height: 150,
               width: ScreenUtil().screenWidth,
               child: Padding(
-                padding: EdgeInsets.only(left: 20.w),
+                padding: EdgeInsets.only(left: 20),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.start,
@@ -67,7 +67,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                     Text(
                       "Log In",
-                      style: TextStyle(fontSize: 22.sp, color: Colors.white),
+                      style: TextStyle(fontSize: 22, color: Colors.white),
                     ),
                   ],
                 ),
@@ -84,29 +84,29 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                 ),
                 child: Padding(
-                  padding: EdgeInsets.all(20.w),
+                  padding: EdgeInsets.all(20),
                   child: SingleChildScrollView(
                     scrollDirection: Axis.vertical,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         SizedBox(
-                          height: 20.h,
+                          height: 20,
                         ),
                         Text(
                           "Bienvenue",
                           style: TextStyle(
-                              fontSize: 22.sp, color: AppColors.vinted_color),
+                              fontSize: 22, color: AppColors.vinted_color),
                         ),
 
                         SizedBox(
-                          height: 15.h,
+                          height: 15,
                         ),
                         Row(
                           children: [
                             Container(
-                              height: 48.h,
-                              width: 41.w,
+                              height: 48,
+                              width: 41,
                               decoration: BoxDecoration(
                                   color: AppColors.vinted_color,
                                   borderRadius: BorderRadius.circular(12.r)),
@@ -114,12 +114,12 @@ class _LoginScreenState extends State<LoginScreen> {
                                 child: Icon(
                                   Icons.email_outlined,
                                   color: Colors.white,
-                                  size: 20.w,
+                                  size: 20,
                                 ),
                               ),
                             ),
                             SizedBox(
-                              width: 10.w,
+                              width: 10,
                             ),
                             Expanded(
                               child: TextField(
@@ -127,7 +127,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                 decoration: InputDecoration(
                                   hintText: "exemple.@gmail.com",
                                   hintStyle: TextStyle(
-                                    fontSize: 14.sp,
+                                    fontSize: 14,
                                     color: Color(0xFF414041),
                                   ),
                                   labelText: 'EMAIL',
@@ -141,13 +141,13 @@ class _LoginScreenState extends State<LoginScreen> {
                           ],
                         ),
                         SizedBox(
-                          height: 10.h,
+                          height: 10,
                         ),
                         Row(
                           children: [
                             Container(
-                              height: 48.h,
-                              width: 41.w,
+                              height: 48,
+                              width: 41,
                               decoration: BoxDecoration(
                                   color: AppColors.vinted_color,
                                   borderRadius: BorderRadius.circular(12.r)),
@@ -155,7 +155,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                 child: Icon(
                                   Icons.lock_outline,
                                   color: Colors.white,
-                                  size: 20.w,
+                                  size: 20,
                                 ),
                               ),
                             ),
@@ -169,12 +169,12 @@ class _LoginScreenState extends State<LoginScreen> {
                                 decoration: InputDecoration(
                                   hintText: "password must be 6 character",
                                   hintStyle: TextStyle(
-                                    fontSize: 14.sp,
+                                    fontSize: 14,
                                     color: Color(0xFF414041),
                                   ),
                                   labelText: 'PASSWORD',
                                   labelStyle: TextStyle(
-                                    fontSize: 15.sp,
+                                    fontSize: 15,
                                     color: AppColors.vinted_color,
                                   ),
                                   suffixIcon: _obscureText == true
@@ -186,7 +186,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                           },
                                           icon: Icon(
                                             Icons.remove_red_eye,
-                                            size: 20.w,
+                                            size: 20,
                                           ))
                                       : IconButton(
                                           onPressed: () {
@@ -196,7 +196,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                           },
                                           icon: Icon(
                                             Icons.visibility_off,
-                                            size: 20.w,
+                                            size: 20,
                                           )),
                                 ),
                               ),
@@ -205,7 +205,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         ),
 
                         SizedBox(
-                          height: 50.h,
+                          height: 50,
                         ),
                         // elevated button
                         customButton(
@@ -215,7 +215,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           },
                         ),
                         SizedBox(
-                          height: 20.h,
+                          height: 20,
                         ),
                         Wrap(
                           children: [
@@ -231,7 +231,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               child: Text(
                                 " Sign Up",
                                 style: TextStyle(
-                                  fontSize: 13.sp,
+                                  fontSize: 13,
                                   fontWeight: FontWeight.w600,
                                   color: AppColors.vinted_color,
                                 ),

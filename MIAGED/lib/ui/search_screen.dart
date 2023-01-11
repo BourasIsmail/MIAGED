@@ -6,6 +6,7 @@ import 'package:miaged/const/AppColors.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+import 'package:miaged/ui/product_details_screen.dart';
 
 class SearchScreen extends StatefulWidget {
   @override
@@ -94,6 +95,10 @@ class _SearchScreenState extends State<SearchScreen> {
                             return Card(
                               elevation: 5,
                               child: ListTile(
+                                onTap: () => Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (_) => ProductDetails(data))),
                                 title: Text(data['product-titre']),
                                 leading: Image.network(data['product-img'][0]),
                               ),

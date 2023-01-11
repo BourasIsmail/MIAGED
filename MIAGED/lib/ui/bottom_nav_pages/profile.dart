@@ -27,7 +27,7 @@ class _ProfileState extends State<Profile> {
           decoration: InputDecoration(
             labelText: 'Email',
             labelStyle: TextStyle(
-              fontSize: 15.sp,
+              fontSize: 15,
               color: Colors.black,
             ),
           ),
@@ -38,7 +38,7 @@ class _ProfileState extends State<Profile> {
           decoration: InputDecoration(
             labelText: 'nom',
             labelStyle: TextStyle(
-              fontSize: 15.sp,
+              fontSize: 15,
               color: Colors.black,
             ),
           ),
@@ -49,7 +49,7 @@ class _ProfileState extends State<Profile> {
           decoration: InputDecoration(
             labelText: 'prenom',
             labelStyle: TextStyle(
-              fontSize: 15.sp,
+              fontSize: 15,
               color: Colors.black,
             ),
           ),
@@ -60,7 +60,7 @@ class _ProfileState extends State<Profile> {
           decoration: InputDecoration(
             labelText: 'address',
             labelStyle: TextStyle(
-              fontSize: 15.sp,
+              fontSize: 15,
               color: Colors.black,
             ),
           ),
@@ -71,7 +71,7 @@ class _ProfileState extends State<Profile> {
           decoration: InputDecoration(
             labelText: 'code postal',
             labelStyle: TextStyle(
-              fontSize: 15.sp,
+              fontSize: 15,
               color: Colors.black,
             ),
           ),
@@ -82,7 +82,7 @@ class _ProfileState extends State<Profile> {
           decoration: InputDecoration(
             labelText: 'ville',
             labelStyle: TextStyle(
-              fontSize: 15.sp,
+              fontSize: 15,
               color: Colors.black,
             ),
           ),
